@@ -1,0 +1,16 @@
+Explain the following SQL query.
+
+SQL DIALECT: {{dialect}}
+PERSONA: {{persona}}
+
+QUERY:
+{{sql}}
+
+Use this structure:
+
+1. Business Question
+2. Step-by-Step Execution
+3. Key SQL Concepts Used
+4. Common Mistakes or Interview Traps
+5. Interview-Ready Explanation (30–60 seconds)
+6. Performance Considerations
