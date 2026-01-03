@@ -23,11 +23,13 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "http://192.168.1.2:3000",
         "https://sql-explainer-frontend.vercel.app",
+        "https://sql-explainer-frontend-git-mobile-e4a70d-ketan-buttes-projects.vercel.app"
         "https://*.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
     expose_headers=["*"],
+     max_age=3600,
 )
 
 app.include_router(health.router)
